@@ -8,4 +8,6 @@ string NumSec(int num)
     return "The number is not three-digit!";
 }
 
-Console.WriteLine(NumSec(int.Parse(Console.ReadLine())));
+int val = int.Parse(Console.ReadLine()!);
+string result = NumSec(val);
+Console.WriteLine(result);
